@@ -1,0 +1,28 @@
+{
+  "name": "jsonapi",
+  "version": "1.0.0",
+  "description": "Purpose: Provide AccioData a Client process to send out responses. (Jerry Breitling, Matthew Breitling, Daniel Breitling) default port: 443",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "body-parser-xml": "^2.0.3",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "json-parser": "^1.1.5",
+    "mssql": "^4.3.9",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mxjheiaq6mezch23rjbwnymzbt4ypfxym5zl7f5o5al7znppsbya@dev.azure.com/gaprs/nodeAccioDataClient/_git/nodeAccioDataClient"
+  }
+}
